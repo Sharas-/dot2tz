@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Allow files and directories
+!/code/**
+!/requirements.txt
+
+# Ignore unnecessary files inside allowed directories
+**/__pycache__
+**/.pytest_cache

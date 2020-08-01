@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+    tzlookup:
+        image: tz-lookup:tzwhere
+        build: .
+        volumes:
+            - ./code:/srv
+        ports:
+            - "8080:80"
